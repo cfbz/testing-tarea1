@@ -2,6 +2,10 @@ def convert(number):
  
     result = ""
 
+    while number >= 1000:
+        result += "M"
+        number -= 1000
+
     while number >= 500:
         result += "D"
         number -= 500
