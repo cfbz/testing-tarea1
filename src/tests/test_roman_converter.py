@@ -27,4 +27,7 @@ def test_converts_8_to_VIII():
                                                                                               
 def test_converts_10_to_X():       
     assert convert(10) == "X" 
-                                                                                                     
+
+def test_converts_9_to_IX():       
+    assert convert(9) == "IX" 
+                                                                                                             
