@@ -36,4 +36,17 @@ def test_converts_14_to_XIV():
 
 def test_converts_24_to_XXIV():       
     assert convert(24) == "XXIV" 
-                                                                                                                                                                                                                               
+
+def test_converts_50_to_L():       
+    assert convert(50) == "L" 
+   
+
+
+
+
+
+
+
+
+
+
