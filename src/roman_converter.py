@@ -1,5 +1,6 @@
 def convert(number):
-    if number == 1:
-        return "I"
-    if number == 2: 
-        return "II"
+    result = ""
+    while number >= 1:
+        result += "I"   
+        number -= 1 
+    return result    

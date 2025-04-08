@@ -6,3 +6,6 @@ def test_converts_1_to_I():
 
 def test_converts_2_to_II():
     assert convert(2) == "II"    
+
+def test_converts_3_to_III():       
+    assert convert(3) == "III"        
