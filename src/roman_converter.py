@@ -1,7 +1,5 @@
 def convert(number):
-    if number == 4:
-        return "IV"
-    
+ 
     result = ""
 
     if number >= 10:
@@ -16,6 +14,9 @@ def convert(number):
         result += "V"
         number -= 5
 
+    if number == 4:
+        result+= "IV"
+        number -= 4
 
     
     while number >= 1:
