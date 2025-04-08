@@ -9,3 +9,6 @@ def test_converts_2_to_II():
 
 def test_converts_3_to_III():       
     assert convert(3) == "III"        
+
+def test_converts_4_to_IV():       
+    assert convert(4) == "IV"            
