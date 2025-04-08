@@ -46,7 +46,9 @@ def test_converts_100_to_C():
 def test_converts_500_to_D():       
     assert convert(500) == "D" 
    
-
+def test_converts_1000_to_M():       
+    assert convert(1000) == "M" 
+   
 
 
 
