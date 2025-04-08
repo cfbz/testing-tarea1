@@ -31,3 +31,6 @@ def test_converts_10_to_X():
 def test_converts_9_to_IX():       
     assert convert(9) == "IX" 
                                                                                                              
+def test_converts_14_to_XIV():       
+    assert convert(14) == "XIV" 
+                                                                                                                                                                                                                          
