@@ -1,6 +1,10 @@
 def convert(number):
  
     result = ""
+    
+    while number >= 50:
+        result += "L"
+        number -= 50
 
     while number >= 10:
         result += "X"
